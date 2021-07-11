@@ -9,4 +9,5 @@ This Python Mininet script describes a 2 host network that is connected via a le
 ## UDP Pinger
 The UDP pinger is exactly what its name suggests: A pinging script that uses the UDP protocol to send and receiving datagram packets. Because UDP is an unreliable transfer protocol, there exists functionality for handling the exception of a timeout while waiting for a response from the host. Outputs for each ping include the RTT (round trip time), the number of packets lost, and the packet loss rate.
 
-## 
+## UDP Client and Server
+A simple pair of scripts that sets up a UDP client and server to send datagram packets.
